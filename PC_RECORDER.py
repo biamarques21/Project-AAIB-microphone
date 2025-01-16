@@ -1,9 +1,6 @@
 import paho.mqtt.client as mqtt
-import json
-import base64
 import sounddevice as sd
-import io 
-import wave
+
 ## isto é o gravador ------------
 # -------- MQTT Settings
 BROKER = "broker.hivemq.com"  
